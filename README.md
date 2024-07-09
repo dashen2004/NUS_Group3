@@ -4,3 +4,6 @@
 
 ### Contributors
 - [Youyao Gao](contributors/YouyaoGao.md)
+- [Haosong Sun](contributors/HaosongSun.md)
+- [Xinyi Zeng](contributors/XinyiZeng.md)
+- [Yu Liang](contributors/YuLiang.md)
