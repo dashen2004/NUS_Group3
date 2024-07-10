@@ -18,7 +18,7 @@ data['Competitor'] = data['Competitor'].map(competitor_to_int)
 data['Venue'] = data['Venue'].map(venue_to_int)
 
 # save to new CSV file
-processed_file_path = '../../docs/new_data.csv'
+processed_file_path = '../../docs/new_data_s2i.csv'
 mapping_file_path1 = '../../docs/mapping_competitor.csv'
 mapping_file_path2 = '../../docs/mapping_venue.csv'
 
