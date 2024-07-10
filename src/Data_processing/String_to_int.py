@@ -1,6 +1,6 @@
 import pandas as pd
 
-file_path = '../../docs/sorted_athlete_sprint_data_with_event_ages.csv'
+file_path = '../../database/crawl_data/sorted_athlete_sprint_data_updated.csv'
 data = pd.read_csv(file_path)
 
 # generate the relations between string and ID
@@ -18,9 +18,9 @@ data['Competitor'] = data['Competitor'].map(competitor_to_int)
 data['Venue'] = data['Venue'].map(venue_to_int)
 
 # save to new CSV file
-processed_file_path = '../../docs/new_data_s2i.csv'
-mapping_file_path1 = '../../docs/mapping_competitor.csv'
-mapping_file_path2 = '../../docs/mapping_venue.csv'
+processed_file_path = '../../database/generate_data/new_data_s2i.csv'
+mapping_file_path1 = '../../database/generate_data/mapping_competitor.csv'
+mapping_file_path2 = '../../database/generate_data/mapping_venue.csv'
 
 data.to_csv(processed_file_path, index=False)
 mapping_df1.to_csv(mapping_file_path1, index=False)

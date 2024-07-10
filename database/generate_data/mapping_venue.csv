@@ -1,0 +1,697 @@
+Venue,ID
+"Alexander Stadium, Birmingham (GBR)",0
+"Bislett Stadion, Oslo (NOR)",1
+"Eugene, OR (USA)",2
+Edmonton (CAN),3
+"Miramar, FL (USA)",4
+"Hayward Field, Eugene, OR (USA)",5
+"Los Angeles, CA (USA)",6
+"Clermont, FL (USA)",7
+"Austin, TX (USA)",8
+"Hampden Park, Glasgow (GBR)",9
+"Sports Park Mladost, Zagreb (CRO)",10
+Calgary (CAN),11
+St. George's (GRN),12
+"Montverde Academy, Montverde, FL (USA)",13
+"Gainesville, FL (USA)",14
+"Baton Rouge, LA (USA)",15
+"Olympic Stadium, London (GBR)",16
+"National Stadium, Beijing (CHN)",17
+Weinheim (GER),18
+"Olympiastadion, Berlin (GER)",19
+"Fayetteville, AR (USA)",20
+"Letzigrund, Z¨¹rich (SUI)",21
+"National Stadium, Gaborone (BOT)",22
+"Complexe Sportif Claude-Robillard, Montr¨¦al (CAN)",23
+Burnaby (CAN),24
+Moncton (CAN),25
+"Flora Duffy Stadium, Devonshire (BER)",26
+"National Training Center, Clermont, FL (USA)",27
+"McLeod Stadium, Langley (CAN)",28
+"Hilmer Lodge Stadium, Walnut, CA (USA)",29
+"Khalifa International Stadium, Doha (QAT)",30
+"Stadio Colbachini, Padova (ITA)",31
+"Ansin Sports Complex, Miramar, FL (USA)",32
+Rieti (ITA),33
+Ottawa (CAN),34
+"Pullman, WA (USA)",35
+"Walnut, CA (USA)",36
+"AP Ranch, Fort Worth, TX (USA)",37
+"Des Moines, IA (USA)",38
+Baie Mahault (FRA),39
+"Stadion Allmend, Luzern (SUI)",40
+"Stade Olympique de la Pontaise, Lausanne (SUI)",41
+Montr¨¦al (CAN),42
+"Montverde, FL (USA)",43
+"Tampa, FL (USA)",44
+"Olympiastadion, Stockholm (SWE)",45
+"Drake Stadium, Los Angeles, CA (USA)",46
+"Shanghai Stadium, Shanghai (CHN)",47
+"Luzhniki Stadion, Moskva (RUS)",48
+"FBK Stadium, Hengelo (NED)",49
+"Est¨¢dio Ol¨ªmpico, Rio de Janeiro (BRA)",50
+"LSU Bernie Moore Stadium, Baton Rouge, LA (USA)",51
+Stellenbosch (RSA),52
+"Boston, MA (USA)",53
+"Le Grand Stade, Marrakech (MAR)",54
+"Moratalaz, Madrid (ESP)",55
+Pretoria (RSA),56
+Amsterdam (NED),57
+Durban (RSA),58
+Port Elizabeth (RSA),59
+"Somerville, MA (USA)",60
+"Stade Raymond Petit, Tomblaine (FRA)",61
+"Msunduzi Athletics Stadium, Pietermaritzburg (RSA)",62
+"Mestsky Stadion Sleti?te, Kladno (CZE)",63
+"McArthur Stadium, Potchefstroom (RSA)",64
+"Cote d'Or National Sports Complex, St Pierre (MRI)",65
+"Stade Louis II, Monaco (MON)",66
+"National Stadium, Tokyo (JPN)",67
+"Bestmed Tuks Stadium, Pretoria (RSA)",68
+"Stadio Olimpico, Roma (ITA)",69
+"Stadio Comunale, Bellinzona (SUI)",70
+Velenje (SLO),71
+Gold Coast (AUS),72
+"Bregy¨® Athletic Center, Sz¨¦kesfeh¨¦rv¨¢r (HUN)",73
+"Nemzeti Atl¨¦tikai K?zpont, Budapest (HUN)",74
+"Stadion ?l?ski, Chorz¨®w (POL)",75
+Sopot (POL),76
+Montreuil (FRA),77
+"Mestsky Stadion, Ostrava (CZE)",78
+"Main Stadium, Gwangju (KOR)",79
+Sasolburg (RSA),80
+Luzern (SUI),81
+"Germiston Stadium, Johannesburg (RSA)",82
+Paarl (RSA),83
+"Suzhou Olympic Sports Centre, Suzhou (CHN)",84
+Kingston (JAM),85
+"Stade de France, Paris-St-Denis (FRA)",86
+Lusaka (ZAM),87
+Potchefstroom (RSA),88
+"Stadio Quercia, Rovereto (ITA)",89
+"Stade Delort, Marseille (FRA)",90
+"Stade Charl¨¦ty, Paris (FRA)",91
+"Ruimsig Stadium, Roodepoort, Johannesburg (RSA)",92
+"Centennial Olympic Park, Atlanta, GA (USA)",93
+"Boudewijnstadion, Bruxelles (BEL)",94
+Johannesburg (RSA),95
+"Icahn Stadium, New York, NY (USA)",96
+"Stadio Luigi Ridolfi, Firenze (ITA)",97
+Ostrava (CZE),98
+Karlstad (SWE),99
+"Suhaim bin Hamad Stadium, Doha (QAT)",100
+"Complexe Sportif Prince Moulay Abdellah, Rabat (MAR)",101
+"Houston, TX (USA)",102
+"CIBC, Toronto (CAN)",103
+"Hutchinson, KS (USA)",104
+"University of North Florda Jax Track at Hodges Stadium, Jacksonville, FL (USA)",105
+"Great Bend, KS (USA)",106
+"International Stadium, Gateshead (GBR)",107
+Taipei City (TPE),108
+Medell¨ªn (COL),109
+"Mesa, AZ (USA)",110
+"Rhodes College, Memphis, TN (USA)",111
+Windsor (CAN),112
+Vancouver (CAN),113
+"Percy Beard Track, Gainesville, FL (USA)",114
+"Olympic Stadium, Nanjing (CHN)",115
+"Lawrence, KS (USA)",116
+"Paavo Nurmen Stadion, Turku (FIN)",117
+Savona (ITA),118
+"Stadion Manfort, Leverkusen (GER)",119
+St-Etienne (FRA),120
+Albi (FRA),121
+Forbach (FRA),122
+"Stadion Juliska, Praha (CZE)",123
+Montgeron (FRA),124
+"Stadio Giuseppe Grezar, Trieste (ITA)",125
+"Stadio Angela Belli, Castiglione della Pescaia (ITA)",126
+"Stade Omnisports Schlossberg, Forbach (FRA)",127
+Bilbao (ESP),128
+Leverkusen (GER),129
+"Paul-Greifzu-Stadion, Dessau (GER)",130
+Bamako (MLI),131
+"Centro Sportivo Fontanassa, Savona (ITA)",132
+Sotteville-l¨¨s-Rouen (FRA),133
+"Estadio Vallehermoso, Madrid (ESP)",134
+"Stadio Zecchini, Grosseto (ITA)",135
+Tourcoing (FRA),136
+"Centre sportif Bout-du-Monde, Gen¨¨ve (SUI)",137
+"Polideportivo Zorrotza, Bilbao (ESP)",138
+"Stade des Martyrs, Kinshasa (COD)",139
+Dakar (SEN),140
+Abidjan (CIV),141
+Padova (ITA),142
+"Cobb Track and Angell Field, Palo Alto, CA (USA)",143
+"Stade des Grands P¨ºchers, Montreuil (FRA)",144
+"Stade d'Athletisme Pierre Voillequin, Troyes (FRA)",145
+Rovereto (ITA),146
+Ouagadougou (BUR),147
+"Olympic Stadium, Athina (GRE)",148
+"Gottlieb-Daimler Stadion, Stuttgart (GER)",149
+Szczecin (POL),150
+Melbourne (AUS),151
+Oslo (NOR),152
+Heusden-Zolder (BEL),153
+Lignano (ITA),154
+"Philadelphia, PA (USA)",155
+Stockholm (SWE),156
+Kortrijk (BEL),157
+Thessaloniki (GRE),158
+"Crystal Palace, London (GBR)",159
+"Atlanta, GA (USA)",160
+"Pusk¨¢s Ferenc Stadion, Budapest (HUN)",161
+"Stadio Guidobaldi, Rieti (ITA)",162
+Beograd (SRB),163
+Z¨¹rich (SUI),164
+"Mangueir?o, Bel¨¦m (BRA)",165
+Montreuil-sous-Bois (FRA),166
+Malles Venosta (ITA),167
+"National Stadium, Kingston (JAM)",168
+Malm? (SWE),169
+Warszawa (POL),170
+Daegu (KOR),171
+Manchester (GBR),172
+Spanish Town (JAM),173
+Marseille (FRA),174
+"Yanmar Stadium Nagai, Osaka (JPN)",175
+Bellinzona (SUI),176
+Shanghai (CHN),177
+Avezzano (ITA),178
+"Stadion PGE Narodowy, Warszawa (POL)",179
+Cagliari (ITA),180
+Port-of-Spain (TTO),181
+"Westwood, CA (USA)",182
+Paris (FRA),183
+"Ullevi Stadium, G?teborg (SWE)",184
+Athina (GRE),185
+Fort-de-France (FRA),186
+"Olympic Stadium, Sydney (AUS)",187
+"Commonwealth Stadium, Edmonton (CAN)",188
+"Knoxville, TN (USA)",189
+St-Denis (FRA),190
+Lausanne (SUI),191
+Tokyo (JPN),192
+"Olympic Stadium, Atlanta, GA (USA)",193
+Bruxelles (BEL),194
+Stuttgart (GER),195
+Kuala Lumpur (MAS),196
+"Olympic Stadium, Jamsil, Seoul (KOR)",197
+Gateshead (GBR),198
+"New York, NY (USA)",199
+Victoria (CAN),200
+"Modesto, CA (USA)",201
+"Tucson, AZ (USA)",202
+Sheffield (GBR),203
+Monaco (MON),204
+K?ln (GER),205
+"Portland, OR (USA)",206
+Bridgetown (BAR),207
+"Fresno, CA (USA)",208
+Lille (FRA),209
+"Newport News, VA (USA)",210
+Bonneuil-sur-Marne (FRA),211
+Gladbeck (GER),212
+Brisbane (AUS),213
+Casablanca (MAR),214
+"Palo Alto, CA (USA)",215
+Ljubljana (SLO),216
+Abuja (NGR),217
+"Olympiastadion, Helsinki (FIN)",218
+New Delhi (IND),219
+"Nyayo National Stadium, Nairobi (KEN)",220
+Arnhem (NED),221
+Saint Anne (FRA),222
+Nice (FRA),223
+Helsinki (FIN),224
+Zagreb (CRO),225
+Cayenne (GUY),226
+"Norfolk, VA (USA)",227
+"Greensboro, NC (USA)",228
+Trikala (GRE),229
+Bottrop (GER),230
+Argentan (FRA),231
+Maputo (MOZ),232
+Riga (LAT),233
+Osaka (JPN),234
+Li¨¨ge (BEL),235
+Herakleion (GRE),236
+Linz (AUT),237
+Algiers (ALG),238
+Chania (GRE),239
+"La Grange, IL (USA)",240
+Oordegem (BEL),241
+Cork (IRL),242
+"Sacramento, CA (USA)",243
+Dublin (IRL),244
+"Edwardsville, IL (USA)",245
+"Orlando, FL (USA)",246
+"Carson, CA (USA)",247
+Uden (NED),248
+"Durham, NC (USA)",249
+Torino (ITA),250
+Milano (ITA),251
+"New Orleans, LA (USA)",252
+Doha (QAT),253
+Winnipeg (CAN),254
+Ciudad de M¨¦xico (MEX),255
+Yokohama (JPN),256
+"Norman, OK (USA)",257
+Donnas (ITA),258
+"Raleigh, NC (USA)",259
+"Auburn, AL (USA)",260
+"Indianapolis, IN (USA)",261
+Naimette-Xhov¨¦mont (BEL),262
+Bydgoszcz (POL),263
+Abbotsford (CAN),264
+Lisboa (POR),265
+Nassau (BAH),266
+N¨¹rnberg (GER),267
+La Gosier (FRA),268
+"La Cartuja, Sevilla (ESP)",269
+Valencia (ESP),270
+Roodeport (RSA),271
+Villeneuve d'Ascq (FRA),272
+Moskva (RUS),273
+St. Louis (USA),274
+K?nigs Wusterhausen (GER),275
+Sevilla (ESP),276
+Basseterre (SKN),277
+Pietersburg (RSA),278
+Cape Town (RSA),279
+Madrid (ESP),280
+Rethymno (GRE),281
+Rio de Janeiro (BRA),282
+Roma (ITA),283
+Sherbrooke (CAN),284
+Salamanca (ESP),285
+Innsbruck (AUT),286
+Kobe (JPN),287
+Poznan (POL),288
+"Arena Civica Gianni Brera, Milano (ITA)",289
+Sestriere (ITA),290
+Granada (ESP),291
+Fukuoka (JPN),292
+"Estadio Ol¨ªmpico, Barcelona (ESP)",293
+Evry-Bondoufle (FRA),294
+Paris-St-Denis (FRA),295
+Berlin (GER),296
+Duisburg (GER),297
+Kourou (FRA),298
+Auckland (NZL),299
+Getxo (ESP),300
+Vigo (ESP),301
+Nancy (FRA),302
+Dar-el-Beida (ALG),303
+London (GBR),304
+"Lexington, KY (USA)",305
+Jerez de la Frontera (ESP),306
+Hengelo (NED),307
+San Jos¨¦ (USA),308
+Bucure?ti (ROU),309
+Grosseto (ITA),310
+Formia (ITA),311
+Viareggio (ITA),312
+Udine (ITA),313
+"El Paso, TX (USA)",314
+Birmingham (GBR),315
+"Tuscaloosa, AL (USA)",316
+Koblenz (GER),317
+Bad Homburg (GER),318
+"Athens, GA (USA)",319
+Karl Marx Stadt (GDR),320
+K?benhavn (DEN),321
+Luxembourg (LUX),322
+Edinburgh (GBR),323
+Feldkirch (AUT),324
+"Columbus, OH (USA)",325
+Bratislava (TCH),326
+La Habana (CUB),327
+Riccione (ITA),328
+Air Force Academy (USA),329
+G?teborg (SWE),330
+Shizuoka (JPN),331
+"Norwalk, CA (USA)",332
+Moskva (URS),333
+Budapest (HUN),334
+Den Haag (NED),335
+"Memorial Coliseum, Los Angeles, CA (USA)",336
+"Dallas, TX (USA)",337
+Firenze (ITA),338
+"Seattle, WA (USA)",339
+Ingolstadt (GER),340
+Les Abymes (FRA),341
+"Lee Valley Athletics Centre, London (GBR)",342
+"London Marathon Community Track, London (GBR)",343
+"Stratford Community Track, London (GBR)",344
+"Manchester Regional Arena, Manchester (GBR)",345
+"Torrance, CA (USA)",346
+Newham (GBR),347
+"Sportcity Regional Arena, Manchester (GBR)",348
+Bedford (GBR),349
+Lee Valley (GBR),350
+Loughborough (GBR),351
+"Tempe, AZ (USA)",352
+"Mike A. Myers Stadium, Austin, TX (USA)",353
+Rabat (MAR),354
+Aix-les-Bains (FRA),355
+"Kara?or?e Stadium, Novi Sad (SRB)",356
+Valence (FRA),357
+Grenoble (FRA),358
+Dijon (FRA),359
+"DS, Daegu (KOR)",360
+V¨¦nissieux (FRA),361
+Annecy (FRA),362
+Franconville (FRA),363
+Angers (FRA),364
+"Fana Stadion, Bergen (NOR)",365
+Bulle (SUI),366
+"Poljud Stadion, Split (CRO)",367
+La Roche-sur-Yon (FRA),368
+Bondoufle (FRA),369
+Castres (FRA),370
+Reims (FRA),371
+Kawasaki (JPN),372
+"Olympic Stadium, Cheboksary (RUS)",373
+"Stade de La Charri¨¨re, La Chaux-de-Fonds (SUI)",374
+Rehlingen (GER),375
+Ponce (PUR),376
+"Olympisch Stadion, Amsterdam (NED)",377
+"Estadio Luguel¨ªn Santos, Bayaguana (DOM)",378
+Cartagena de Indias (COL),379
+Bel¨¦m (BRA),380
+Willemstad (AHO),381
+Mayag¨¹ez (PUR),382
+"Azusa, CA (USA)",383
+Lignano Sabbiadoro (ITA),384
+Beijing (CHN),385
+Barquisimeto (VEN),386
+"Stadium Lille M¨¦tropole, Villeneuve d'Ascq (FRA)",387
+Lisse (NED),388
+Mannheim (GER),389
+Santo Domingo (DOM),390
+"Gresham, OR (USA)",391
+"Denton, TX (USA)",392
+"Waco, TX (USA)",393
+"Arlington, TX (USA)",394
+Funchal (POR),395
+Newcastle upon Tyne (GBR),396
+"Fort Worth, TX (USA)",397
+"Estadio Universitario, Lisboa (POR)",398
+Sydney (AUS),399
+Santiago de Chile (CHI),400
+Zaragoza (ESP),401
+Lugano (SUI),402
+"AC Gianni Brera, Milano (ITA)",403
+Lagos (NGR),404
+Marrubia (ITA),405
+Bauchi (NGR),406
+Pescara (ITA),407
+Kalamata (GRE),408
+Nuoro (ITA),409
+Bratislava (SVK),410
+Barletta (ITA),411
+Port Harcourt (NGR),412
+Benin City (NGR),413
+Nitra (SVK),414
+Nairobi (KEN),415
+Jakarta (INA),416
+S?o Paulo (BRA),417
+Barcelona (ESP),418
+Neubrandenburg (GER),419
+"Starkville, MS (USA)",420
+Mito (JPN),421
+Belfast (GBR),422
+"Miami, FL (USA)",423
+Cottbus (GER),424
+Hechtel (BEL),425
+Dessau (GER),426
+Portsmouth (GBR),427
+Hiroshima (JPN),428
+Trapani (ITA),429
+St. Petersburg (RUS),430
+Kvarnsveden (SWE),431
+M¨¢laga (ESP),432
+Pune (IND),433
+La Chaux-de-Fonds (SUI),434
+Dortmund (GER),435
+Sao Leopoldo (BRA),436
+"Lafayette, LA (USA)",437
+"Buffalo Grove, IL (USA)",438
+"San Marcos, TX (USA)",439
+Strasbourg (FRA),440
+Tanger (MAR),441
+Uberlandia (BRA),442
+Sofia (BUL),443
+"N¨¦pstadion, Budapest (HUN)",444
+Dubnica nad V¨¢hom (SVK),445
+"Est¨¢dio Dr. Magalh?es Pessoa, Leiria (POR)",446
+H¨¦rouville (FRA),447
+Biberach (GER),448
+Nantes (FRA),449
+"Be?igrajski stadion, Ljubljana (SLO)",450
+Glasgow (GBR),451
+"Estadio Ciudad de M¨¢laga, M¨¢laga (ESP)",452
+Istanbul (TUR),453
+"SGJ, Johannesburg (RSA)",454
+Arzana (ITA),455
+Riederich (GER),456
+Speyer (GER),457
+Kassel (GER),458
+Trier (GER),459
+Villach (AUT),460
+Rhede (GER),461
+Troisdorf (GER),462
+Freistett (GER),463
+Baden-Baden (GER),464
+Heidelberg (GER),465
+Cuxhaven (GER),466
+Rheinau-Freistett (GER),467
+Steinbach (GER),468
+Arnsberg (GER),469
+Chemnitz (GER),470
+Gisingen (AUT),471
+Bitburg (GER),472
+Waldshut-Tiengen (GER),473
+C¨®rdoba (ESP),474
+Hamburg (GER),475
+Schongau (GER),476
+St. Antonio (POR),477
+Leiria (POR),478
+Tenerife (ESP),479
+Mafra (POR),480
+Krak¨®w (POL),481
+"Olympiastadion, M¨¹nchen (GER)",482
+Sierra Nevada (ESP),483
+Albufeira (POR),484
+"EIS Don Valley Stadium, Sheffield (GBR)",485
+Seixal (POR),486
+And¨²jar (ESP),487
+Rivas (ESP),488
+Seia (POR),489
+Maia (POR),490
+"CM, Madrid (ESP)",491
+Castell¨®n (ESP),492
+"Estadio Iberoamericano, Huelva (ESP)",493
+Lagos (POR),494
+La Laguna (ESP),495
+"Wattenscheid, Bochum (GER)",496
+Valladolid (ESP),497
+Uppsala (SWE),498
+"SIAC Homebush, Sydney (AUS)",499
+Laguna (ESP),500
+Braga (POR),501
+"Fort Collins, CO (USA)",502
+Windhoek (NAM),503
+"San Diego, CA (USA)",504
+Cairo (EGY),505
+"Provo, UT (USA)",506
+Tampere (FIN) (i),507
+Sapporo (JPN),508
+Tallinn (EST),509
+Rad¨¦s (TUN),510
+Pieks?m?ki (FIN),511
+Lahti (FIN),512
+Villeneuve (FRA),513
+Flor? (NOR),514
+Lapinlahti (FIN),515
+"Albuquerque, NM (USA)",516
+Jena (GER),517
+Turku (FIN),518
+Germiston (RSA),519
+Abingdon (GBR),520
+Pavia (ITA),521
+Gen¨¨ve (SUI),522
+"Pingles Stadium, Nuneaton (GBR)",523
+Gliwice (POL),524
+"S. Darius & S. Gir?nas Stadium, Kaunas (LTU)",525
+"Zdzis?aw Krzyszkowiak Stadium, Bydgoszcz (POL)",526
+"Moi International Sports Centre, Kasarani, Nairobi (KEN)",527
+"Drake Stadium, Des Moines, IA (USA)",528
+"Oxford, MS (USA)",529
+"Columbia, SC (USA)",530
+"Estadio Francisco Montaner, Ponce (PUR)",531
+"PVAMU Track Stadium, Prairie View, TX (USA)",532
+"Jacksonville, FL (USA)",533
+"Jonesboro, AR (USA)",534
+Bursa (TUR),535
+Erzurum (TUR),536
+Pitesti (ROU),537
+Novi Pazar (SRB),538
+"Cluj Arena, Cluj-Napoca (ROU)",539
+"National Stadium, Shenzhen (CHN)",540
+"Stade Complexe Olympique, Oran (ALG)",541
+Lappeenranta (FIN),542
+Izmir (TUR),543
+Sundsvall (SWE),544
+Ankara (TUR),545
+Tarragona (ESP),546
+"At?c?lar Atletizm Sahas?, Bursa (TUR)",547
+Hilversum (NED),548
+Antalya (TUR),549
+"Atletski stadion, Smederevo (SRB)",550
+Mersin (TUR),551
+"Atat¨¹rk University Stadium, Erzurum (TUR)",552
+"Kaarlen kentt?, Vaasa (FIN)",553
+"Stade Bachelard, Grenoble (FRA)",554
+"Stade Josette et Roger Mikulak, Angers (FRA)",555
+Cergy-Pontoise (FRA),556
+"Kadrioru staadion, Tallinn (EST)",557
+"Stade Sottevillais 76, Sotteville-l¨¨s-Rouen (FRA)",558
+"Stadium Municipal, Albi (FRA)",559
+"Stade Jules Ladoumegue, La Roche-sur-Yon (FRA)",560
+"Stade Helitas, Caen (FRA)",561
+St-Denis-R¨¦union (FRA),562
+Antony (FRA),563
+"Croix-Bleue Medavie Stadium, Moncton (CAN)",564
+"Eintracht-Stadion, Braunschweig (GER)",565
+"College Station, TX (USA)",566
+"Odessa, TX (USA)",567
+Joensuu (FIN),568
+Rakvere (EST),569
+"Todoroki Stadium, Kawasaki (JPN)",570
+George Town (CAY),571
+"Coral Gables, FL (USA)",572
+Kuortane (FIN),573
+Herzogenaurach (GER),574
+"Stadion Orze?, Warszawa (POL)",575
+"Meteor, Zhukovskiy (RUS)",576
+Lamentin (FRA),577
+Bird Rock (SKN),578
+"Leonora Stadium, Leonora (GUY)",579
+Guadalajara (MEX),580
+Ciudad de Guatemala (GUA),581
+Freeport (BAH),582
+Road Town (IVB),583
+Port Coquitlam (CAN),584
+"Blaine, MN (USA)",585
+Noisy-le-Grand (FRA),586
+"Neckarstadion, Stuttgart (GER)",587
+"Estadio Panamericano, La Habana (CUB)",588
+"Estadio de la Comunidad, Madrid (ESP)",589
+Perth (AUS),590
+"Helm¨¢ntico, Salamanca (ESP)",591
+Byrkjelo (NOR),592
+Frankfurt (GER),593
+Cardiff (GBR),594
+Enfield (GBR),595
+Praha (TCH),596
+Hobart (AUS),597
+"Tallahassee, FL (USA)",598
+Monterrey (MEX),599
+Brasschaat (BEL),600
+Hermosillo (MEX),601
+Santa F¨¦ (ARG),602
+"Weserstadion, Bremen (GER)",603
+"E.Nacional, Santiago de Chile (CHI)",604
+"Daugava Stadium, Riga (LAT)",605
+Bangor (GBR),606
+Kaohsiung (TPE),607
+"Charlotte, NC (USA)",608
+Fribourg (SUI),609
+"Louisville, KY (USA)",610
+Fortaleza (BRA),611
+"Lincoln, NE (USA)",612
+"Towson, MD (USA)",613
+"Winter Park, FL (USA)",614
+"Christian Brothers HS, Memphis, TN (USA)",615
+"Grosics Gyula Stadion, Tatab¨¢nya (HUN)",616
+"Parc des Sports C. Ehrmann, Nice (FRA)",617
+"Billy J. Murphy Track and Field Complex, Memphis, TN (USA)",618
+"Stadio G. Teghil, Lignano Sabbiadoro (ITA)",619
+"x-bionic sphere, ?amor¨ªn (SVK)",620
+Lima (PER),621
+Ust¨ª Nad Orlic¨ª (CZE),622
+Olbia (ITA),623
+Kaunas (LTU),624
+Hamilton (BER),625
+"Dinamo National Olympic Stadium, Minsk (BLR)",626
+"Lamoni, IA (USA)",627
+Barranquilla (COL),628
+"Jamaica College Ashenheim Stadium, Kingston (JAM)",629
+Bern (SUI),630
+"Walker Track, Johnson City, TN (USA) (i)",631
+"GC Foster College, Spanish Town (JAM)",632
+"Sportcentrum Wembley, Kortrijk (BEL)",633
+Montego Bay (JAM),634
+"Stadion Eggenberg, Graz (AUT)",635
+"Harjun stadion, Jyv?skyl? (FIN)",636
+"Rannastaadion, P?rnu (EST)",637
+"Atleticky stadion Turnov, Turnov (CZE)",638
+Doma?lice (CZE),639
+"Stade Pierre de Coubertin, Montgeron (FRA)",640
+"Leichtathletikarena, Eisenstadt (AUT)",641
+Morelia (MEX),642
+"Provincial domain Huizingen, Huizingen (BEL)",643
+"Lubbock, TX (USA)",644
+Verona (ITA),645
+La Coru?a (ESP),646
+M¨¹nchen (GER),647
+"Abilene, TX (USA)",648
+Caracas (VEN),649
+Alcobendas (ESP),650
+"Bolles HS Track, Jacksonville, FL (USA)",651
+St-Martin (FRA),652
+"Bacolet, Scarborough (TTO)",653
+Toronto (CAN),654
+"Clemson, SC (USA)",655
+Busan (KOR),656
+Oxford (GBR),657
+"Coffeyville, KS (USA)",658
+"Nashville, TN (USA)",659
+"Levelland, TX (USA)",660
+"Overland Park, KS (USA)",661
+Addis Abeba (ETH),662
+Patra (GRE),663
+Nuramnis (ITA),664
+"Coral Springs, FL (USA)",665
+Halifax (CAN),666
+Umea (SWE),667
+"Fort Lauderdale, FL (USA)",668
+"Daytona Beach, FL (USA)",669
+"Marietta HS, Marietta, GA (USA)",670
+Providenciales (TKS),671
+"Egret Stadium, Xiamen (CHN)",672
+"Denka Big Swan Stadium, Niigata (JPN)",673
+Izumo (JPN),674
+Nara (JPN),675
+"Municipal Stadium, Hiroshima (JPN)",676
+Hiratsuka (JPN),677
+Fukui (JPN),678
+Yamaguchi (JPN),679
+Saitama (JPN),680
+"Athletic Stadium, Tottori (JPN)",681
+"Hamayama Park Athletic Field, Izumo (JPN)",682
+Fukushima (JPN),683
+"Prefectural Stadium, Fukui (JPN)",684
+Kumagaya (JPN),685
+Fukuroi (JPN),686
+Canberra (AUS),687
+Chofu (JPN),688
+"Hokuroku Park Athletic Field, Fujiyoshida (JPN)",689
+"HOC Stadium, Hangzhou (CHN)",690
+Tottori (JPN),691
+Nagoya (JPN),692
+"Nagaragawa Stadium, Gifu (JPN)",693
+Gifu (JPN),694
+Fuse (JPN),695

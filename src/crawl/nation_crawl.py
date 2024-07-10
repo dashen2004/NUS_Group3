@@ -74,4 +74,4 @@ df = pd.DataFrame(all_data, columns=table_headers)
 print(df)
 
 # 保存到 CSV 文件
-df.to_csv('../../docs/nation5_data.csv', index=False)
+df.to_csv('../../database/crawl_data/nation5_data.csv', index=False)
