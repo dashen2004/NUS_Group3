@@ -3,9 +3,9 @@ import pandas as pd
 if __name__ == "__main__":
 
     # 读取CSV文件
-    file_path = '../../database/generate_data/new_data_s2i.csv'  # 请将其替换为你的文件路径
+    file_path = '../../database/generate_data/new_data_s2i.csv'
     # 如果取最好，可以改为nation5_data.csv
-    score_path = '../../database/crawl_data/sorted_athlete_sprint_data_updated.csv'
+    score_path = '../../database/crawl_data/sorted_athlete_sprint_data_with_event_ages_revised.csv'
     df = pd.read_csv(file_path)
     sf = pd.read_csv(score_path)
 

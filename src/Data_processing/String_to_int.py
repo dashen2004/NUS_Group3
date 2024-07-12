@@ -2,7 +2,7 @@ import pandas as pd
 
 if __name__ == "__main__":
 
-    file_path = '../../database/crawl_data/sorted_athlete_sprint_data_updated.csv'
+    file_path = '../../database/crawl_data/sorted_athlete_sprint_data_with_event_ages_revised.csv'
     data = pd.read_csv(file_path)
 
     # generate the relations between string and ID

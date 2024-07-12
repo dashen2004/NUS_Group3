@@ -8,7 +8,7 @@ import torch.nn.functional as F
 import torch.optim as optim
 
 # Step 1: Read the CSV file and prepare data
-data = pd.read_csv('athlete_data.csv')
+data = pd.read_csv('../../database/model_data/athlete_data.csv')
 
 # Convert columns to the appropriate data types manually if needed
 data = data.astype({
@@ -32,7 +32,7 @@ scaler = StandardScaler()
 X = scaler.fit_transform(X)
 
 # Split data into training and testing sets
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.90, random_state=42)
 
 # Convert data to PyTorch tensors
 X_train_tensor = torch.tensor(X_train, dtype=torch.float32)
@@ -61,12 +61,12 @@ test_loader = DataLoader(test_dataset, batch_size=4, shuffle=False)
 class AthleteNetwork(nn.Module):
     def __init__(self):
         super(AthleteNetwork, self).__init__()
-        self.layer1 = nn.Linear(8, 16)   # 第一隐藏层，32个神经元
-        self.dropout1 = nn.Dropout(0.5) # Dropout层，防止过拟合
+        self.layer1 = nn.Linear(8, 16)  # 第一隐藏层，32个神经元
+        self.dropout1 = nn.Dropout(0.5)  # Dropout层，防止过拟合
         self.layer2 = nn.Linear(16, 8)  # 第二隐藏层，16个神经元
-        self.dropout2 = nn.Dropout(0.5) # Dropout层
-        self.layer3 = nn.Linear(8, 4)   # 第三隐藏层，8个神经元
-        self.layer4 = nn.Linear(4, 1)    # 输出层
+        self.dropout2 = nn.Dropout(0.5)  # Dropout层
+        self.layer3 = nn.Linear(8, 4)  # 第三隐藏层，8个神经元
+        self.layer4 = nn.Linear(4, 1)  # 输出层
 
     def forward(self, x):
         x = F.relu(self.layer1(x))
@@ -76,7 +76,6 @@ class AthleteNetwork(nn.Module):
         x = F.relu(self.layer3(x))
         x = torch.sigmoid(self.layer4(x))
         return x
-
 
 
 # Instantiate the model
@@ -136,9 +135,6 @@ with torch.no_grad():
         correct += (predicted == labels).sum().item()
 
 print(f'Accuracy: {100 * correct / total}%')
-
-
-
 
 # 假设 new_data 是一个包含新样本特征的 NumPy 数组，形状为 (n_samples, 8)
 new_data = [[22, 9.764615385, 0.012591026, 1.230769231, 1, 9.69, 1169.777336, 1]]
