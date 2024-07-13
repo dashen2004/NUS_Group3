@@ -10,14 +10,14 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\database\athletes_list.csv">
+        <entry key="\database\crawl_data\data_processing1_updated.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\database\crawl_data\data_processing1_updated.csv">
+        <entry key="\database\crawl_data\nation5_data.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -31,7 +31,21 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\src\athlete_data.csv">
+        <entry key="\database\generate_data\athletes_list.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\database\generate_data\mapping_competitor.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\database\model_data\candidate_processed2.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

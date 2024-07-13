@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e5e49e0-b2b2-4ad2-92e6-f6f4c04faaf5" name="Changes" comment="delete the previous logit model file">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+    <list default="true" id="9e5e49e0-b2b2-4ad2-92e6-f6f4c04faaf5" name="Changes" comment="try to predict rank">
       <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024_7_11_15_14__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024_7_11_15_14__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +89,9 @@
       <workItem from="1720514229189" duration="1401000" />
       <workItem from="1720579414845" duration="6077000" />
       <workItem from="1720714146552" duration="365000" />
-      <workItem from="1720749622844" duration="5194000" />
+      <workItem from="1720749622844" duration="8722000" />
+      <workItem from="1720792744573" duration="1242000" />
+      <workItem from="1720837055766" duration="895000" />
     </task>
     <task id="LOCAL-00001" summary="TEST">
       <option name="closed" value="true" />
@@ -133,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720667624362</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="try to predict rank">
+      <option name="closed" value="true" />
+      <created>1720772391576</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720772391576</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +162,8 @@
     <MESSAGE value="TEST" />
     <MESSAGE value="Latest Version of Youyao Gao's Introduction." />
     <MESSAGE value="try to use logit model" />
-    <option name="LAST_COMMIT_MESSAGE" value="try to use logit model" />
+    <MESSAGE value="try to predict rank" />
+    <option name="LAST_COMMIT_MESSAGE" value="try to predict rank" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/NUS_Group3$pa1.coverage" NAME="pa1 Coverage Results" MODIFIED="1720585396792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
