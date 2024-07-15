@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.metrics import roc_curve, auc, confusion_matrix, classification_report
 
+
 # Plot ROC curve
 def plot_roc_curve(y, y_pred_prob):
     fpr, tpr, thresholds = roc_curve(y, y_pred_prob)
@@ -19,6 +20,7 @@ def plot_roc_curve(y, y_pred_prob):
     plt.grid(True)
     plt.show()
 
+
 # Plot distribution of predicted probabilities
 def plot_predicted_probabilities(y_pred_prob):
     plt.figure(figsize=(10, 8))
@@ -27,6 +29,7 @@ def plot_predicted_probabilities(y_pred_prob):
     plt.xlabel('Predicted Probability')
     plt.ylabel('Frequency')
     plt.show()
+
 
 # Plot confusion matrix and print classification report
 def plot_confusion_matrix_and_report(y, y_pred_prob):
@@ -38,6 +41,7 @@ def plot_confusion_matrix_and_report(y, y_pred_prob):
     print("\nClassification Report:")
     print(cr)
 
+
 # Plot feature importance
 def plot_feature_importance(result):
     coef = result.params.drop('const')
@@ -47,6 +51,7 @@ def plot_feature_importance(result):
     plt.ylabel('Coefficient')
     plt.xticks(rotation=45)
     plt.show()
+
 
 # Plot boxplots for each feature by Finalist Weight
 def plot_boxplots(df_cleaned, columns_to_analyze):
@@ -59,6 +64,7 @@ def plot_boxplots(df_cleaned, columns_to_analyze):
         plt.ylabel(column)
     plt.tight_layout()
     plt.show()
+
 
 # Plot predicted probabilities vs actual values
 def plot_pred_vs_actual(y_pred_prob, y):

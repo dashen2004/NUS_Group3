@@ -3,6 +3,7 @@ from sklearn.metrics import classification_report, roc_curve, auc, confusion_mat
 from sklearn.preprocessing import label_binarize
 import numpy as np
 
+
 # Evaluate the model and print classification report
 def evaluate_model(voting_classifier, X_test, y_test, y):
     y_pred = voting_classifier.predict(X_test)
@@ -12,6 +13,7 @@ def evaluate_model(voting_classifier, X_test, y_test, y):
                                 target_names=['1', '2', '3', '4', '5', '6', '7', '8', '9']))
     plot_roc_curves(voting_classifier, X_test, y_test, y)
     plot_confusion_matrix(y_test, y_pred, y)
+
 
 # Plot ROC curves for each class
 def plot_roc_curves(voting_classifier, X_test, y_test, y):
@@ -36,6 +38,7 @@ def plot_roc_curves(voting_classifier, X_test, y_test, y):
         plt.legend(loc="lower right")
         plt.show()
 
+
 # Plot the confusion matrix
 def plot_confusion_matrix(y_test, y_pred, y):
     cm = confusion_matrix(y_test, y_pred, labels=np.unique(y))
@@ -43,6 +46,7 @@ def plot_confusion_matrix(y_test, y_pred, y):
     cmd.plot(cmap=plt.cm.Blues)
     plt.title('Confusion Matrix')
     plt.show()
+
 
 # Perform cross-validation and print accuracy scores
 def cross_validate_model(voting_classifier, X, y):
