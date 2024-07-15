@@ -1,5 +1,8 @@
-## It's Xinyi Zeng
-
-<3606179706@qq.com>
+# ZengXinYi
+**Gender:** Female  
+**Major:** Data Science 
+**Email:** 12212355@mail.sustech.edu.cn
+**Skills:** Java, Python 
+**Interests:** Machine Learning, Deep Learning, Data Analysis
 
 
