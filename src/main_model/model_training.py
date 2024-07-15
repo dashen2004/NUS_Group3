@@ -12,7 +12,7 @@ def train_mlp_classifier(X_train, y_train):
         'alpha': [0.0001, 0.001, 0.01],
         'learning_rate': ['constant', 'adaptive']
     }
-    mlp = MLPClassifier(max_iter=300, random_state=42)
+    mlp = MLPClassifier(max_iter=1000, random_state=42)
     grid_search = GridSearchCV(estimator=mlp, param_grid=param_grid, cv=3, scoring='accuracy', n_jobs=-1)
     grid_search.fit(X_train, y_train)
     return grid_search.best_estimator_

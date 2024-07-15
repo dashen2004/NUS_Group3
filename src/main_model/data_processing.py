@@ -20,6 +20,11 @@ def prepare_data(data):
     return X, y
 
 
+def expand_data(test, times=5):
+    expanded_df = pd.concat([test] * times, ignore_index=True)
+    return expanded_df
+
+
 # Balance classes using ADASYN
 def oversample_data(X, y):
     adasyn = ADASYN(random_state=42)
@@ -29,7 +34,7 @@ def oversample_data(X, y):
 
 # Split dataset into training and testing sets
 def split_data(X, y):
-    return train_test_split(X, y, test_size=0.2, random_state=42)
+    return train_test_split(X, y, test_size=0.25, random_state=42)
 
 
 # Noise Injection
