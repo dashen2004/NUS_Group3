@@ -8,6 +8,6 @@
 
 **Skills:** Java, Python 
 
-**Interests:** Machine Learning, Deep Learning, Data Analysis
+**Research Interest:** Machine Learning, Deep Learning, Data Analysis
 
 
