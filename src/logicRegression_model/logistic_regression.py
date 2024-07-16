@@ -1,5 +1,6 @@
 import statsmodels.api as sm
 
+
 # Perform logistic regression on cleaned data
 def perform_logistic_regression(df_cleaned):
     columns_to_analyze = [

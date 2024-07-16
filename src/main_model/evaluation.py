@@ -54,3 +54,4 @@ def cross_validate_model(voting_classifier, X, y):
     cv_scores = cross_val_score(voting_classifier, X, y, cv=5, scoring='accuracy')
     print(f"Cross-validation accuracy scores: {cv_scores}")
     print(f"Mean cross-validation accuracy: {cv_scores.mean()}")
+    return cv_scores

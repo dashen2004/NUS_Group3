@@ -74,7 +74,7 @@ def generate_synthetic_data(X, n_clusters=10, n_samples_per_cluster=100):
 
 
 # Data Augmentation Pipeline
-def augment_data(X, y, target_size=20000):
+def augment_data(X, y, target_size=8000):
     current_size = X.shape[0]
     augmented_data = X.copy()
     augmented_labels = y.copy()
@@ -84,8 +84,11 @@ def augment_data(X, y, target_size=20000):
         X_perturbed = perturb_features(X)
         X_synthetic = generate_synthetic_data(X)
 
-        augmented_data = pd.concat([augmented_data, X_noisy, X_perturbed, X_synthetic])
-        augmented_labels = pd.concat([augmented_labels, y, y, y])
+        new_data = pd.concat([X_noisy, X_perturbed, X_synthetic])
+        new_labels = pd.concat([y, y, y])
+
+        augmented_data = pd.concat([augmented_data, new_data])
+        augmented_labels = pd.concat([augmented_labels, new_labels])
 
         current_size = augmented_data.shape[0]
 
