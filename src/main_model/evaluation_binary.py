@@ -17,12 +17,17 @@ def evaluate_model_binary(voting_classifier, X_test, y_test):
 
 
 # Plot ROC curve for binary classification
-def plot_roc_curve_binary(voting_classifier, X_test, y_test_bin):
-    y_score = voting_classifier.predict_proba(X_test)[:, 1]  # 只取正类的概率得分
+def plot_roc_curve_binary(model, X_test, y_test):
+    y_pred = model.predict(X_test)
+    y_score = model.predict_proba(X_test)[:, 1]
 
-    fpr, tpr, _ = roc_curve(y_test_bin, y_score)
+    # 打印分类报告
+    print("Classification Report:")
+    print(classification_report(y_test, y_pred, zero_division=1, digits=3))
+
+    # 绘制ROC曲线
+    fpr, tpr, _ = roc_curve(y_test, y_score)
     roc_auc = auc(fpr, tpr)
-
     plt.figure()
     plt.plot(fpr, tpr, color='darkorange', lw=2,
              label='ROC curve (area = {:.2f})'.format(roc_auc))
@@ -33,6 +38,13 @@ def plot_roc_curve_binary(voting_classifier, X_test, y_test_bin):
     plt.ylabel('True Positive Rate')
     plt.title('Receiver Operating Characteristic (ROC)')
     plt.legend(loc="lower right")
+    plt.show()
+
+    # 绘制混淆矩阵
+    cm = confusion_matrix(y_test, y_pred)
+    cmd = ConfusionMatrixDisplay(cm, display_labels=[0, 1])
+    cmd.plot(cmap=plt.cm.Blues)
+    plt.title('Confusion Matrix')
     plt.show()
 
 

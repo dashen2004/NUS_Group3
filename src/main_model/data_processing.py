@@ -11,6 +11,10 @@ def load_data(file_path):
     return pd.read_csv(file_path)
 
 
+def transform_to_binary(series):
+    return series.apply(lambda x: 1 if 1 <= x <= 8 else 0)
+
+
 # Prepare features (X) and target (y) from the dataset
 def prepare_data(data):
     X = data[['age_at_event mean', 'Average Net Result mean', 'Mark mean',
