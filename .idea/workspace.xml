@@ -4,10 +4,6 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e5e49e0-b2b2-4ad2-92e6-f6f4c04faaf5" name="Changes" comment="change the code of model to a better format and make the logistic regression model and neural network model seperated to two files">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crawl/pa.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/crawl/pa.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +29,9 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/dashen2004/NUS_Group3.git&quot;,
-    &quot;accountId&quot;: &quot;6287f603-b5f4-469a-a601-0f31a7c6b92f&quot;
+    &quot;accountId&quot;: &quot;436ea5b9-b151-4780-b640-9a11264b36d3&quot;
   }
 }</component>
-  <component name="PerforceDirect.Settings">
-    <option name="CHARSET" value="无" />
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -47,30 +40,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Python.logicRegression.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pa.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pa1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.predictmodel.executor&quot;: &quot;Run&quot;,
-    &quot;Python.try.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/桌面/NUS_Group3/src/main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python.pa.executor": "Run",
+    "Python.pa1.executor": "Run",
+    "Python.try.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/NUS_Group3/src/PredictTry",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\桌面\NUS_Group3\src\main" />
       <recent name="E:\NUS_Group3\src\PredictTry" />
     </key>
   </component>
@@ -97,6 +87,7 @@
       <workItem from="1720749622844" duration="8722000" />
       <workItem from="1720792744573" duration="1242000" />
       <workItem from="1720837055766" duration="895000" />
+<<<<<<< HEAD
       <workItem from="1720843712714" duration="4935000" />
       <workItem from="1720856350912" duration="19000" />
       <workItem from="1720856449144" duration="1793000" />
@@ -107,6 +98,10 @@
       <workItem from="1721029947422" duration="2033000" />
       <workItem from="1721034520318" duration="7000" />
       <workItem from="1721034999799" duration="1547000" />
+=======
+      <workItem from="1721009676883" duration="3804000" />
+      <workItem from="1721013570760" duration="2694000" />
+>>>>>>> e43ff7667f9ca63457c688962c3d6dda899ce993
     </task>
     <task id="LOCAL-00001" summary="TEST">
       <option name="closed" value="true" />
@@ -190,6 +185,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="change the code of model to a better format and make the logistic regression model and neural network model seperated to two files" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+<<<<<<< HEAD
     <SUITE FILE_PATH="coverage/cnt_Nat_del_DOB_py$main.coverage" NAME="main Coverage Results" MODIFIED="1720859481722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/logicRegression_model" />
     <SUITE FILE_PATH="coverage/predictmodel_py$logicRegression.coverage" NAME="logicRegression Coverage Results" MODIFIED="1720858029768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/logicRegression_model" />
     <SUITE FILE_PATH="coverage/NUS_Group3$pa1.coverage" NAME="pa1 Coverage Results" MODIFIED="1720585396792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
@@ -197,6 +193,10 @@
     <SUITE FILE_PATH="coverage/predictmodel_py$predictmodel.coverage" NAME="predictmodel Coverage Results" MODIFIED="1720856677560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Model" />
     <SUITE FILE_PATH="coverage/predictmodel_py$main.coverage" NAME="main Coverage Results" MODIFIED="1720857435931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main" />
     <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main Coverage Results" MODIFIED="1721035484329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/logicRegression_model" />
+=======
+    <SUITE FILE_PATH="coverage/NUS_Group3$pa1.coverage" NAME="pa1 Coverage Results" MODIFIED="1720585396792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/NUS_Group3$pa.coverage" NAME="pa Coverage Results" MODIFIED="1720585442240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+>>>>>>> e43ff7667f9ca63457c688962c3d6dda899ce993
     <SUITE FILE_PATH="coverage/NUS_Group3$try.coverage" NAME="try Coverage Results" MODIFIED="1720514285885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>

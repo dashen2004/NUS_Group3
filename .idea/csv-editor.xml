@@ -45,7 +45,42 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\database\model_data\candidate_predictions.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\database\model_data\candidate_predictions_2024_56.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\database\model_data\candidate_predictions_56.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\database\model_data\candidate_predictions_improved.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\database\model_data\candidate_processed2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\database\model_data\candidate_processed4.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
