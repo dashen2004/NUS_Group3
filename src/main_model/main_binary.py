@@ -3,6 +3,8 @@ from data_processing import (load_data, prepare_data, oversample_data,
 from model_training_binary import train_xgboost, train_mlp_classifier, train_voting_classifier_binary
 from evaluation_binary import evaluate_model_binary, cross_validate_model_binary
 from prediction import predict_new_data
+import visualization_binary
+import pandas as pd
 
 
 def main():
@@ -34,6 +36,14 @@ def main():
     # Cross-validate model
     print("Cross-validate model..")
     cross_validate_model_binary(res_model, X, y)
+
+    # visualization
+    y_pred_prob = res_model.predict_proba(X_test)[:, 1]
+
+    visualization_binary.plot_roc_curve(y_test, y_pred_prob)
+    visualization_binary.plot_predicted_probabilities(y_pred_prob)
+    visualization_binary.plot_confusion_matrix_and_report(y_test, y_pred_prob)
+    visualization_binary.plot_feature_importance(res_model, [f'Feature {i}' for i in range(X.shape[1])], X_test, y_test)
 
 
 if __name__ == "__main__":
