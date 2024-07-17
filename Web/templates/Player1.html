@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 10 in Paris Olympics</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container_Player">
+        <a href="/" class="button back-button">← Back</a>
+        <h1>Top 10 in Paris Olympics</h1>
+        <div class="player_select_container">
+            <label for="player-select"></label><select id="player-select">
+                <option value="Player1">Player1</option>
+                <option value="Player2">Player2</option>
+                <option value="Player3">Player3</option>
+                <option value="Player4">Player4</option>
+                <option value="Player5">Player5</option>
+                <option value="Player6">Player6</option>
+                <option value="Player7">Player7</option>
+                <option value="Player8">Player8</option>
+                <option value="Player9">Player9</option>
+                <option value="Player10">Player10</option>
+            </select>
+        </div>
+        <div class="player_info">
+            <div id="player-details">
+                <p>Name: Player1</p>
+                <p>Height: 1.80m</p>
+                <p>Weight: 75kg</p>
+                <p>Nation: USA</p>
+            </div>
+        </div>
+        <div class="personal_picture">
+            <img id="picture" src="../static/player1_picture.png" alt="personal picture">
+        </div>
+        <div class="personal_performance">
+            <img id="performance" src="../static/player1_performance.png" alt="personal performance">
+        </div>
+    </div>
+    <script>
+        // Add JavaScript to handle player selection
+        document.getElementById('player-select').addEventListener('change', function() {
+            var player = this.value;
+            var details = {
+                'Player1': {
+                    name: 'Fred KERLEY', height: '1.93m', weight: '91kg', nation: 'USA',
+                    picture: '../static/player1_picture.png',
+                    performance: '../static/player1_performance.png'
+                },
+                'Player2': {
+                    name: 'Oblique SEVILLE', height: '1.70m', weight: '62kg', nation: 'JAM',
+                    picture: '../static/player2_picture.png',
+                    performance: '../static/player2_performance.png'
+                },
+                'Player3': {
+                    name: 'Kishane THOMPSON', height: '1.85m', weight: '77kg', nation: 'JAM',
+                    picture: '../static/player3_picture.png',
+                    performance: '../static/player3_performance.png'
+                },
+                'Player4': {
+                    name: 'Noah LYLES', height: '1.80m', weight: '70kg', nation: 'USA',
+                    picture: '../static/player4_picture.png',
+                    performance: '../static/player4_performance.png'
+                },
+                'Player5': {
+                    name: 'Akani SIMBINE', height: '1.76m', weight: '74kg', nation: 'RSA',
+                    picture: '../static/player5_picture.png',
+                    performance: '../static/player5_performance.png'
+                },
+                'Player6': {
+                    name: 'José GONZáLEZ', height: '1.83m', weight: '75kg', nation: 'DOM',
+                    picture: '../static/player6_picture.png',
+                    performance: '../static/player6_performance.png'
+                },
+                'Player7': {
+                    name: 'Louie HINCHLIFFE', height: '1.75m', weight: '70kg', nation: 'GBR',
+                    picture: '../static/player7_picture.png',
+                    performance: '../static/player7_performance.png'
+                },
+                'Player8': {
+                    name: 'Ferdinand OMANYALA', height: '1.71m', weight: '84kg', nation: 'KEN',
+                    picture: '../static/player8_picture.png',
+                    performance: '../static/player8_performance.png'
+                },
+                'Player9': {
+                    name: 'Pablo MATEO', height: '1.83m', weight: '75kg', nation: 'FRA',
+                    picture: '../static/player9_picture.png',
+                    performance: '../static/player9_performance.png'
+                },
+                'Player10': {
+                    name: 'Emmanuel ESEME', height: '1.84m', weight: '83kg', nation: 'CMR',
+                    picture: '../static/player10_picture.png',
+                    performance: '../static/player10_performance.png'
+                },
+            };
+            var playerDetails = details[player];
+            document.getElementById('player-details').innerHTML = `
+                <p>Name: ${playerDetails.name}</p>
+                <p>Height: ${playerDetails.height}</p>
+                <p>Weight: ${playerDetails.weight}</p>
+                <p>Nation: ${playerDetails.nation}</p>
+            `;
+            document.getElementById('picture').src = playerDetails.picture;
+            document.getElementById('performance').src = playerDetails.performance;
+        });
+    </script>
+</body>
+</html>
