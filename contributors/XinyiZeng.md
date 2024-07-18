@@ -10,4 +10,4 @@
 
 **Research Interest:** Machine Learning, Deep Learning, Data Analysis
 
-
+![alt text](../images/introduction_zxy.jpg "Xinyi Zeng")
