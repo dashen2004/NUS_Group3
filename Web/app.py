@@ -25,6 +25,11 @@ def players():
     return render_template('Player1.html')
 
 
+@app.route('/Advice')
+def advice():
+    return render_template('Advice.html')
+
+
 @app.route('/Data')
 def my_database():
     csv_path = "../database/generate_data/all_data_processed4_pro.csv"
