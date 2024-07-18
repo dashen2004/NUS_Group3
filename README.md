@@ -10,20 +10,20 @@
 
 ### Code
 Code for Web Mining
-- [PowerPrint](src/crawl/pa.py)
-- [PowerPrint](src/crawl/nation_crawl.py)
+- [pa.py](src/crawl/pa.py)
+- [nation_crwal.py](src/crawl/nation_crawl.py)
 
 Code for Data processing
-- [PowerPrint](src/data_processing/cnt_Nat_del_DOB.py)
-- [PowerPrint](src/data_processing/cut_csv.py)
-- [PowerPrint](src/data_processing/cut_csv2.py)
-- [PowerPrint](src/data_processing/String_to_int.py)
+- [cnt_Nat_del_DOB.py](src/data_processing/cnt_Nat_del_DOB.py)
+- [cut_csv.py](src/data_processing/cut_csv.py)
+- [cut_csv2.py](src/data_processing/cut_csv2.py)
+- [String_to_int.py](src/data_processing/String_to_int.py)
 
 Code for Logistic Modeling:
-- [PowerPrint](src/logicRegression_model/main.py)
+- [Logistic Modeling](src/logicRegression_model/main.py)
 
 Code for Main Modeling(Random Forest):
-- [PowerPrint](src/main_model/main.py)
+- [Main Modeling](src/main_model/main.py)
 
 
 ### Display Materials
